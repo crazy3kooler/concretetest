@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (3.1.5)
+  - DGElasticPullToRefresh (1.0.3)
+  - Font-Awesome-Swift (1.4.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - DGElasticPullToRefresh
+  - Font-Awesome-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  DGElasticPullToRefresh: 040f39ae69840b3261d163fe6735c5901bf851e9
+  Font-Awesome-Swift: 0af30357ab68dbcfa2d211254a5c11a158261112
+
+COCOAPODS: 0.39.0
