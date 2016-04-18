@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		39C4A0B309B1997FE510E500 /* Pods_recrutamento_concrete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CDE7A9C82AA52243A2F066 /* Pods_recrutamento_concrete.framework */; };
-		FC110BDE1C611DD900A0656D /* concretelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC110BDD1C611DD900A0656D /* concretelogo.png */; };
 		FC110BDF1C61634F00A0656D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360A1C1C5939D9002F946F /* HomeViewController.swift */; };
 		FC110BE01C61663900A0656D /* APIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360A3F1C59538A002F946F /* APIConnector.swift */; };
 		FC110BE11C61663E00A0656D /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360A3A1C5952B6002F946F /* RepositoryModel.swift */; };
@@ -31,6 +30,7 @@
 		FC360A3B1C5952B6002F946F /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360A3A1C5952B6002F946F /* RepositoryModel.swift */; };
 		FC360A3E1C595331002F946F /* APIInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360A3D1C595331002F946F /* APIInfo.swift */; };
 		FC360A401C59538A002F946F /* APIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360A3F1C59538A002F946F /* APIConnector.swift */; };
+		FC5614D51CB691BD008EFAED /* recrutamento_concreteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5614D41CB691BD008EFAED /* recrutamento_concreteUITests.swift */; };
 		FCE5F1D51C605A74003B5756 /* placeholder_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE5F1D41C605A74003B5756 /* placeholder_avatar.png */; };
 		FCE5F1D71C605C84003B5756 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5F1D61C605C84003B5756 /* RepositoryTableViewCell.swift */; };
 		FCE5F1D91C6063FD003B5756 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5F1D81C6063FD003B5756 /* Theme.swift */; };
@@ -50,13 +50,19 @@
 			remoteGlobalIDString = FC360A161C5939D9002F946F;
 			remoteInfo = recrutamento_concrete;
 		};
+		FC5614D71CB691BD008EFAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC360A0F1C5939D9002F946F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC360A161C5939D9002F946F;
+			remoteInfo = recrutamento_concrete;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3D503A16C400EC085506AAC8 /* Pods-recrutamento_concrete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recrutamento_concrete.release.xcconfig"; path = "Pods/Target Support Files/Pods-recrutamento_concrete/Pods-recrutamento_concrete.release.xcconfig"; sourceTree = "<group>"; };
 		79CDE7A9C82AA52243A2F066 /* Pods_recrutamento_concrete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recrutamento_concrete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3871A865BDB8CA53BBF538B /* Pods-recrutamento_concrete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recrutamento_concrete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-recrutamento_concrete/Pods-recrutamento_concrete.debug.xcconfig"; sourceTree = "<group>"; };
-		FC110BDD1C611DD900A0656D /* concretelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concretelogo.png; sourceTree = "<group>"; };
 		FC360A171C5939D9002F946F /* recrutamento_concrete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recrutamento_concrete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC360A1A1C5939D9002F946F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC360A1C1C5939D9002F946F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 		FC360A3A1C5952B6002F946F /* RepositoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
 		FC360A3D1C595331002F946F /* APIInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIInfo.swift; sourceTree = "<group>"; };
 		FC360A3F1C59538A002F946F /* APIConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConnector.swift; sourceTree = "<group>"; };
+		FC5614D21CB691BD008EFAED /* recrutamento_concreteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recrutamento_concreteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5614D41CB691BD008EFAED /* recrutamento_concreteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recrutamento_concreteUITests.swift; sourceTree = "<group>"; };
+		FC5614D61CB691BD008EFAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE5F1D41C605A74003B5756 /* placeholder_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_avatar.png; sourceTree = "<group>"; };
 		FCE5F1D61C605C84003B5756 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
 		FCE5F1D81C6063FD003B5756 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -91,6 +100,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FC360A281C5939D9002F946F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5614CF1CB691BD008EFAED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,6 +155,7 @@
 			children = (
 				FC360A191C5939D9002F946F /* recrutamento_concrete */,
 				FC360A2E1C5939D9002F946F /* recrutamento_concreteTests */,
+				FC5614D31CB691BD008EFAED /* recrutamento_concreteUITests */,
 				FC360A181C5939D9002F946F /* Products */,
 				51A598B2B7D05CBD7BE421C0 /* Pods */,
 				6D0AEC62EDF37F09407484C2 /* Frameworks */,
@@ -150,6 +167,7 @@
 			children = (
 				FC360A171C5939D9002F946F /* recrutamento_concrete.app */,
 				FC360A2B1C5939D9002F946F /* recrutamento_concreteTests.xctest */,
+				FC5614D21CB691BD008EFAED /* recrutamento_concreteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +215,15 @@
 			name = API;
 			sourceTree = "<group>";
 		};
+		FC5614D31CB691BD008EFAED /* recrutamento_concreteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5614D41CB691BD008EFAED /* recrutamento_concreteUITests.swift */,
+				FC5614D61CB691BD008EFAED /* Info.plist */,
+			);
+			path = recrutamento_concreteUITests;
+			sourceTree = "<group>";
+		};
 		FCE5F1D31C605423003B5756 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,7 +265,6 @@
 		FCE5F1E71C6097BC003B5756 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FC110BDD1C611DD900A0656D /* concretelogo.png */,
 				FCE5F1D41C605A74003B5756 /* placeholder_avatar.png */,
 			);
 			name = Images;
@@ -293,21 +319,44 @@
 			productReference = FC360A2B1C5939D9002F946F /* recrutamento_concreteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FC5614D11CB691BD008EFAED /* recrutamento_concreteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5614D91CB691BD008EFAED /* Build configuration list for PBXNativeTarget "recrutamento_concreteUITests" */;
+			buildPhases = (
+				FC5614CE1CB691BD008EFAED /* Sources */,
+				FC5614CF1CB691BD008EFAED /* Frameworks */,
+				FC5614D01CB691BD008EFAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5614D81CB691BD008EFAED /* PBXTargetDependency */,
+			);
+			name = recrutamento_concreteUITests;
+			productName = recrutamento_concreteUITests;
+			productReference = FC5614D21CB691BD008EFAED /* recrutamento_concreteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		FC360A0F1C5939D9002F946F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = arilson;
 				TargetAttributes = {
 					FC360A161C5939D9002F946F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C9HD25D8DL;
 					};
 					FC360A2A1C5939D9002F946F = {
 						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FC360A161C5939D9002F946F;
+					};
+					FC5614D11CB691BD008EFAED = {
+						CreatedOnToolsVersion = 7.3;
 						TestTargetID = FC360A161C5939D9002F946F;
 					};
 				};
@@ -327,6 +376,7 @@
 			targets = (
 				FC360A161C5939D9002F946F /* recrutamento_concrete */,
 				FC360A2A1C5939D9002F946F /* recrutamento_concreteTests */,
+				FC5614D11CB691BD008EFAED /* recrutamento_concreteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +388,6 @@
 			files = (
 				FC360A251C5939D9002F946F /* LaunchScreen.storyboard in Resources */,
 				FC360A221C5939D9002F946F /* Assets.xcassets in Resources */,
-				FC110BDE1C611DD900A0656D /* concretelogo.png in Resources */,
 				FCE5F1D51C605A74003B5756 /* placeholder_avatar.png in Resources */,
 				FC360A201C5939D9002F946F /* Main.storyboard in Resources */,
 			);
@@ -349,6 +398,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC110BEB1C61700200A0656D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5614D01CB691BD008EFAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +499,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC5614CE1CB691BD008EFAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5614D51CB691BD008EFAED /* recrutamento_concreteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -450,6 +514,11 @@
 			isa = PBXTargetDependency;
 			target = FC360A161C5939D9002F946F /* recrutamento_concrete */;
 			targetProxy = FC360A2C1C5939D9002F946F /* PBXContainerItemProxy */;
+		};
+		FC5614D81CB691BD008EFAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC360A161C5939D9002F946F /* recrutamento_concrete */;
+			targetProxy = FC5614D71CB691BD008EFAED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -559,10 +628,14 @@
 			baseConfigurationReference = D3871A865BDB8CA53BBF538B /* Pods-recrutamento_concrete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = recrutamento_concrete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arilsoncarmo.recrutamento-concrete";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -571,10 +644,14 @@
 			baseConfigurationReference = 3D503A16C400EC085506AAC8 /* Pods-recrutamento_concrete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = recrutamento_concrete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arilsoncarmo.recrutamento-concrete";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -599,6 +676,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arilsoncarmo.recrutamento-concreteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recrutamento_concrete.app/recrutamento_concrete";
+			};
+			name = Release;
+		};
+		FC5614DA1CB691BD008EFAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = recrutamento_concreteUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.acarmo.recrutamento-concreteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = recrutamento_concrete;
+			};
+			name = Debug;
+		};
+		FC5614DB1CB691BD008EFAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = recrutamento_concreteUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.acarmo.recrutamento-concreteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = recrutamento_concrete;
 			};
 			name = Release;
 		};
@@ -631,6 +734,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FC5614D91CB691BD008EFAED /* Build configuration list for PBXNativeTarget "recrutamento_concreteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5614DA1CB691BD008EFAED /* Debug */,
+				FC5614DB1CB691BD008EFAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
